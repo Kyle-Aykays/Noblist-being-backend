@@ -20,14 +20,14 @@ const UserSchema = new Schema ({
         required: true, 
         minlenght: 8,
     }, 
-    goals: [string], 
-    values: [string], 
+    goals: [String], 
+    values: [String], 
     mission: {
         type: String, 
         default : ''
     }, 
     vision: {
-        type: string, 
+        type: String, 
         default: ''
     }, 
     // profileSettings: {
