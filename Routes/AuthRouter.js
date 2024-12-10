@@ -1,6 +1,6 @@
 const { signup, login } = require('../Controllers/AuthController');
 const { signupValidation, loginValidation } = require('../Middlewares/AuthValidation');
-const Checklist = require('../models/Checklist');
+const Checklist = require('../Models/Checklist');
 const predefinedChecklists = require('../utils/checklistTemplates');
 const UserModel = require('../Models/User');
 
