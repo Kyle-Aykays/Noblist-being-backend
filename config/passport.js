@@ -1,7 +1,7 @@
 const passport = require('passport');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const User = require('../Models/User'); // Import User model
-const Checklist = require('../models/Checklist');
+const Checklist = require('../Models/Checklist');
 const predefinedChecklists = require('../utils/checklistTemplates');
 const UserModel = require('../Models/User');
 
