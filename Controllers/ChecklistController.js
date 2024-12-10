@@ -1,4 +1,4 @@
-const Checklist = require('../models/Checklist');
+const Checklist = require('../Models/Checklist');
 
 // Create a New Checklist
 
