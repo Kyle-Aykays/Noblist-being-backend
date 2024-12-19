@@ -41,7 +41,7 @@ router.get('/google/callback',
         const user = req.user;
         // Redirect to the frontend with user data
         res.redirect(
-            `${process.env.FRONTEND_URL}/profile?user=${encodeURIComponent(JSON.stringify({
+            `https://noblest-being-frontend.vercel.app/profile?user=${encodeURIComponent(JSON.stringify({
                 id: user._id, // MongoDB ID
                 name: user.name,
                 email: user.email,
