@@ -12,7 +12,7 @@ const GOOGLE_CLIENT_SECRET = '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';
 passport.use(new GoogleStrategy({
     clientID: GOOGLE_CLIENT_ID,
     clientSecret: GOOGLE_CLIENT_SECRET,
-    callbackURL: "http://localhost:8080/auth/google/callback"
+    callbackURL: "https://noblist-being-backend.onrender.com/auth/google/callback"
 }, async (accessToken, refreshToken, profile, done) => {
     try {
         // Find or create the user in the database
