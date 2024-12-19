@@ -47,6 +47,7 @@ router.get('/google/callback',
                 email: user.email,
             }))}`
         );
+        console.log("the backend has redirected");
     }
 );
 
